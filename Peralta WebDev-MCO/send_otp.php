@@ -41,7 +41,7 @@ function sendOtpEmail($email, $otp) {
         $mail->Body = "
             <h3>Your OTP Code: <strong>$otp</strong></h3>
             <p>Be reminded,OTP will expire within 5 minutes.</p>
-            <p><a href='http://localhost/SAPGUIAN_MCO/verify.php?email=$email'>Click here to verify</a></p>
+            <p><a href='http://localhost/Peralta WebDev-MCO/verify.php?email=$email'>Click here to verify</a></p>
         ";
 
         $mail->send();
